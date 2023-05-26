@@ -116,4 +116,3 @@ console.log(firstName + " " + lastName + " is");
 console.log(currentAge + " years old.");
 console.log(currentAge);
 
-
