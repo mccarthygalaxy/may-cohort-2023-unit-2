@@ -24,3 +24,16 @@ age >= 25 ?
     age >= 18 ?
     console.log("Yay! You can vote!") :
     console.log("Sorry, you're too young to do anything fun.");
+
+
+    let myNum = 17
+
+    if (myNum > 17) {
+    
+    console.log("Not yet 20")
+    
+    } else if (myNum >= 20) {
+    
+    console.log("Over 20")
+    
+    }

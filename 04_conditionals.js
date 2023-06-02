@@ -237,5 +237,21 @@ Age Challenge (if else):
     }
 */
 
-// NOTES
+// Quiz
+
+//! QUIZ REFLECTION
+//* First
+let myNum = 17;
+
+if(myNum > 17) {
+    console.log("Not yet 20");
+} else if (myNum >= 20) {
+    console.log("Over 20");
+}
+
+//* Second
+let temp = 68;
+
+temp > 70 ? "It is summer" : "still spring";
+
 
