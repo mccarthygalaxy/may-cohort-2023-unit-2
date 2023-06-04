@@ -69,3 +69,41 @@ console.log(list);
 let car = "Ford";
 let dec = 12;
 
+
+// ADDITIONAL INFO:
+
+let neighborhood = [
+    {
+        door: "red",
+        rooms: [
+            "mstr bed", "bed", "kitchen"
+        ]
+    },
+    {
+        door: "blue",
+        rooms: [
+            "mstr bed", "bed", "bed", "kitchen"
+        ]
+    },
+    {
+        door: "green",
+        rooms: [
+            "mstr bed", "kitchen"
+        ]
+    },
+    {
+        door: "yellow",
+        rooms: [
+            "mstr bed", "bed", "kitchen"
+        ]
+    },
+]
+
+// console.log(neighborhood[1].rooms[2]);
+console.log(neighborhood[4]);
+neighborhood.push({
+    door: "orange",
+    rooms: []
+});
+
+console.log(neighborhood[4]);
