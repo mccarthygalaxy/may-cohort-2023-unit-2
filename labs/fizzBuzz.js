@@ -17,3 +17,31 @@
         What kind of operator helps us with finding out division with remainders? 
         Consider how to store the values outside of the function.  
 */
+
+let fizzBuzz = 0;
+let fizz = 0;
+let buzz = 0;
+
+for(i = 1; i <= 100; i++) {
+  let response = null;
+  // var fizzBuzz = 0;
+  // var fizz = 0;
+  // var buzz = 0;
+
+  if(i % 15 === 0) {
+    response = "Fizz Buzz!";
+    fizzBuzz++;
+  } else if (i % 5 === 0) {
+    response = "Buzz";
+    fizz++;
+  } else if (i % 3 === 0) {
+    response = "Fizz";
+    buzz++;
+  } else {
+    response = i;
+  }
+  console.log(response);
+}
+console.log(`\nThere were ${fizzBuzz} Fizz Buzzes.`);
+console.log(`There were ${fizz} Fizzes.`);
+console.log(`There were ${buzz} Buzzes.`);
